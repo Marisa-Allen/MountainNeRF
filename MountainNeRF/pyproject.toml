@@ -1,0 +1,11 @@
+[project]
+name = "dem-height-nerfacto"
+version = "0.1.0"
+dependencies = ["nerfstudio", "rasterio"]
+
+[project.entry-points."nerfstudio.method_configs"]
+dem-height-nerfacto = "dem_height_nerfacto.dem_height_config:dem_height_nerfacto"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
