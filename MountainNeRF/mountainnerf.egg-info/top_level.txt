@@ -1,1 +1,1 @@
-dem_height_nerfacto
+MountainNeRF
