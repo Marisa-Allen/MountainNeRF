@@ -1,5 +1,5 @@
 [project]
-name = "dem-height-nerfacto"
+name = "mountainnerf"
 version = "0.1.0"
 dependencies = ["nerfstudio", "rasterio"]
 
